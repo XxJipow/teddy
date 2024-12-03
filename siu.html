@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://teddyonsol.fun/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEDDY THE COIN</title>
+    <link rel="stylesheet" href="./Teddy-Files/main.css">
+    <link rel="stylesheet" href="./Teddy-Files/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Teddy-Files/css2" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Teddy-Files/logoteddy.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Teddy-Files/logoteddy-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Teddy-Files/logoteddy-16x16.png">
+    <link rel="manifest" href="https://teddyonsol.fun/source/img/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+    <style>
+
+    .rocket_man {
+        animation: none !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    
+    .container {
+        position: relative;
+        overflow: visible !important;
+    }
+
+    .sn_fuq {
+        width: 81.4%; /* This makes it take up 2/3 of the space */
+        position: relative; /* Add this to help with image positioning */
+        padding-left: 5%; /* This adds 10px spacing from the left */
+    }
+
+    .faq-decorative-image {
+        position: absolute;
+        padding-top: /*638px*/59.1%;
+        left: 100%; /* This will position it right after the sn_fuq container */
+        bottom: 0; /* Center vertically */
+        /*transform: translateY(-50%); Help with vertical centering */
+        width: 300px;
+        height: 100%;
+        object-fit: contain;
+        z-index: 1;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0.01%, #804C29), color-stop(99.99%, #ED6B4C));
+        background: linear-gradient(0deg, #805229 0.01%, #ae7739 99.99%);
+    }
+
+
+    .about-content-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 4rem;  /* Increased from 2rem to 4rem */
+        position: relative;
+        padding-right: 20px;  /* Added padding to prevent image from touching container edge */
+    }
+
+    .about-text {
+        flex: 1;
+    }
+
+    .about-decorative-image {
+        width: 300px;
+        bottom: 0; /* Center vertically */
+        height: auto;
+        object-fit: contain;
+        margin-right: -200px;  /* Increased negative margin to push image more to the right */
+        position: relative;
+        z-index: 1; /* Ensure image stays above other elements */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .about-content-wrapper {
+            flex-direction: column;
+            padding-right: 0;
+        }
+        
+        .about-decorative-image {
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        .sn_fuq {
+            width: 100%;
+        }
+        
+        .faq-decorative-image {
+            display: none; /* Optional: hide image on mobile */
+        }
+    }
+
+    .moving-line-scroll {
+        display: inline-block;      /* Allow horizontal scrolling */
+        position: absolute;         /* Start positioning for animation */
+        animation: scroll 10s linear infinite;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    
+    
+    <!--<div class="banner_teddy_a">
+        <img src="./Teddy-Files/banner.png" alt="">
+    </div> -->
+
+    <header class="active">
+        
+        <div class="header_container">
+            <a href="https://teddyonsol.fun/" class="logo">
+                <img src="./Teddy-Files/logoteddy.png" alt="">
+            </a>
+            <nav>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Tokenomics">Tokenomics</a>
+                <a href="#HowtoBuy">How to Buy</a>
+                <a href="#FAQs">FAQs</a>
+            </nav>
+            <div class="right_action">
+                <a href="https://pump.fun" class="link_st_a primary_btn_a_img">
+                    <div>
+                        <img src="./Teddy-Files/pump.png" alt="Jup icon">
+                    </div>
+                    <span>Buy $TEDDY</span>
+                </a>
+                <button class="menu_mobile_btn"></button>
+            </div>
+        </div>
+    </header>
+    <div class="page_wrapper">
+
+        <div class="mobile_navigation ">
+            <div class="m_nav">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Tokenomics">Tokenomics</a>
+                <a href="#HowtoBuy">How to Buy</a>
+                <a href="#FAQs">FAQs</a>
+            </div>
+            <a href="https://pump.fun" class="link_st_a primary_btn_a_img">
+                <div>
+                    <img src="./Teddy-Files/pump.png" alt="Jup icon">
+                </div>
+                <span>Buy $TEDDY</span>
+            </a>
+        </div>
+
+        <section class="sn_hero" id="Home">
+            <div class="container">
+                <div class="sn_hero_content">
+                    <h1>TEDDY<br> THE COIN</h1>
+                    <p>Where cuddles meet crypto in an adorable, plush bear!</p>
+                    <div class="row_btn">
+                        <a href="https://pump.fun" class="primary_btn_a primary_btn_a_img primary_btn_a_img-item">
+                            <div>
+                                <img src="./Teddy-Files/pump.png" alt="Jup icon">
+                            </div>
+                            <span>Buy $TEDDY</span>
+                        </a>
+                        <a href="https://dexscreener.com" class="secondary_btn_a primary_btn_a_img" style="background-color: white;">
+                            <div>
+                                <img src="./Teddy-Files/dexscreener.png" alt="dexscreener icon">
+                            </div>
+                            <span>View Chart</span>
+                        </a>
+                    </div>
+                    <img src="./Teddy-Files/hero_teddy.png" class="hero_char" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="moving_line_scroll"></div>
+
+        <section class="sn_about">
+            <div class="anchor" id="About"></div>
+            <div class="container">
+                <div class="sn_about_content scroll_effect effect_active">
+                    <div class="header">
+                        <img src="./Teddy-Files/logo.png" alt="" class="avatar">
+                        <div class="social_link_items">
+                            <a href="https://x.com/sol__teddy" target="_blank" class="social_link">
+                                <img src="./Teddy-Files/x_social_icon.svg" alt="">
+                            </a>
+                            <a href="https://t.me0" target="_blank" class="social_link">
+                                <img src="./Teddy-Files/tg_social_icon.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about-content-wrapper">
+                        <div class="about-text">
+                            <h2 class="scroll_effect effect_active">Teddy, the cuddly chaos-maker with a heart of gold and a head full of fluff.</h2>
+                            <br>
+                            <p class="scroll_effect effect_active">TEDDY is not just any teddy bear. He's a bundle of joy, blending cozy charm with a playful spirit that brings smiles to everyone.<br><br> Join our lovable troublemaker on his mission to spread happiness, one cuddle at a time.</p>
+                        </div>
+                        <img src="./Teddy-Files/fwoog2.png" alt="Decorative Image" class="about-decorative-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="moving_line_scroll"></div>
+
+        <section class="sn_tokenomics">
+            <div class="anchor" id="Tokenomics"></div>
+            <img src="./Teddy-Files/moon.png" alt="" class="moon">
+            <img src="./Teddy-Files/moon2.png" alt="" class="rocket_man">
+            <div class="container">
+                <div class="sn_tokenomics_content">
+                    <h2 class="scroll_effect">Teddy-nomics</h2>
+                    <h3 class="scroll_effect">100% fair launch <br>
+                        LP Burned <br>
+                        1 Billion Supply</h3>
+                    <div class="copy_container scroll_effect">
+                        <div class="copy_content">
+                            <p id="CopyText">****************************************pump</p>
+                        </div>
+                        <button id="CopyButton" class="copy_button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sn_how_to_buy">
+            <div class="anchor" id="HowtoBuy"></div>
+            <div class="container">
+                <div class="sn_how_to_buy_content">
+                    <div class="header scroll_effect">
+                        <h2>How to Hug Your $TEDDY?</h2>
+                        <a href="https://pump.fun" class="primary_btn_a primary_btn_a_img">
+                            <div>
+                                <img src="./Teddy-Files/pump.png" alt="Jup icon">
+                            </div>
+                            <span>Buy $TEDDY</span>
+                        </a>
+
+                    </div>
+                    <div class="custom_slider scroll_effect">
+                        <div class="custom_slide" id="custom-slide-1">
+                            <h2>STEP 1:</h2>
+                            <h3>Setup a wallet</h3>
+                            <p>Careful not to lose it <br> like TEDDY did!</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot active" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="./Teddy-Files/eyes.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide active" id="custom-slide-2">
+                            <h2>STEP 2:</h2>
+                            <h3>Buy some SOL</h3>
+                            <p>TEDDY thinks it's magic internet <br> money, and he's not entirely wrong.</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot active" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="./Teddy-Files/eyes.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide" id="custom-slide-3">
+                            <h2>STEP 3:</h2>
+                            <h3>Head to Jup.ag</h3>
+                            <p>Teddy calls it the "Token Twerk" <br> a crypto adventure in the making!"</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot" data-index="1"></span>
+                                <span class="custom_dot active" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="./Teddy-Files/eyes.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide" id="custom-slide-4">
+                            <h2>STEP 4:</h2>
+                            <h3>Connect your wallet</h3>
+                            <p>Careful not to share your <br>private key, like TEDDY did!</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot active" data-index="3"></span>
+                                <span class="custom_dot" data-index="4"></span>
+                            </div>
+                            <img src="./Teddy-Files/eyes.png" alt="" class="step">
+                        </div>
+                        <div class="custom_slide" id="custom-slide-5">
+                            <h2>STEP 5:</h2>
+                            <h3>Swap SOL for $TEDDY</h3>
+                            <p>Congratulations, you're now part of the<br>cozy, good-hearted crypto adventure!</p>
+                            <div class="custom_pagination">
+                                <span class="custom_dot" data-index="0"></span>
+                                <span class="custom_dot" data-index="1"></span>
+                                <span class="custom_dot" data-index="2"></span>
+                                <span class="custom_dot" data-index="3"></span>
+                                <span class="custom_dot active" data-index="4"></span>
+                            </div>
+                            <img src="./Teddy-Files/eyes.png" alt="" class="step">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="moving_line_scroll"></div>
+
+        <section class="sn_fuq">
+            <div class="anchor" id="FAQs"></div>
+            <div class="container">
+                <div class="sn_fuq_content">
+                    <h2 class="scroll_effect">Frequently Asked Teddy</h2>
+                    <div class="question_items">
+                        <div class="question_item active scroll_effect">
+                            <div class="question_btn">
+                                <p>What is a Teddy?</p>
+                                <button class="faq_btn"></button>
+                            </div>
+                            <p class="response">Teddy is not just a what; it's a who, a why, and sometimes a where! Teddy is the embodiment of all things warm, fuzzy, and wonderfully chaotic, a bundle of joy with a sprinkle of mischief!</p>
+                        </div>
+                        <div class="question_item scroll_effect">
+                            <div class="question_btn">
+                                <p>Is $TEDDY a serious investment?</p>
+                                <button class="faq_btn"></button>
+                            </div>
+                            <p class="response">$TEDDY is as serious as a bear hug! While it brings joy and fun to the crypto space, it's best approached as a lighthearted investment. Remember, its charm lies in the playful spirit, so only invest what you'd be comfortable parting with in pursuit of a little 'cuddly' chaos.</p>
+                        </div>
+                        <div class="question_item scroll_effect">
+                            <div class="question_btn">
+                                <p>What's "The Great Bear Hug"?</p>
+                                <button class="faq_btn"></button>
+                            </div>
+                            <p class="response">It's the culmination of Teddy's mission — a prophesied event where joy and warmth spread through the entire crypto space. Think of it as a bull run, but instead of profits, it's an avalanche of smiles, laughter, and unexpected connections!</p>
+                        </div>
+                        <div class="question_item scroll_effect">
+                            <div class="question_btn">
+                                <p>How do I join the Teddy community?</p>
+                                <button class="faq_btn"></button>
+                            </div>
+                            <p class="response">Just grab some $Teddy and hug tightly! Join us on X and Telegram for your daily cuddle of chaos and crypto cuteness.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./Teddy-Files/wife.png" alt="FAQ Decorative Image" class="faq-decorative-image">
+        </section>
+
+        <footer>
+            <img src="./Teddy-Files/footer_teddy.png" alt="" class="footer_bloop">
+            <div class="container">
+                <div class="sn_footer_content">
+                    <div class="navigation">
+                        <a href="#Home">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#Tokenomics">Tokenomics</a>
+                        <a href="#HowtoBuy">How to Buy</a>
+                        <a href="#FAQs">FAQs</a>
+                    </div>
+                    <div class="social_media">
+                        <p class="title">Follow Us</p>
+                        <div class="social_media_link">
+                            <a href="https://x.com/sol__teddy" target="_blank"><img src="./Teddy-Files/x_social_icon_w.svg" alt=""></a>
+                            <a href="https://t.me" target="_blank"><img src="./Teddy-Files/tg_social_icon_w.svg" alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="disclaimer">
+                        <p class="title">Disclaimer:</p>
+                        <p class="description">This website is for entertainment only. Meme coins are risky, so DYOR and
+                            only invest what you can afford to lose.</p>
+                    </div>
+                    <div class="btn_animated">
+                        <a href="https://pump.fun" class="primary_btn_a primary_btn_a_img">
+                            <div>
+                                <img src="./Teddy-Files/pump.png" alt="Jup icon">
+                            </div>
+                            <span>GET $TEDDY TODAY</span>
+                        </a>
+                    </div>
+                    <p class="rights"></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+<script>
+    const sliderText = document.getElementById('SliderText');
+    const texts = [
+        "In the annals of crypto lore, few tales are as whimsical — or as consequential — as the Genesis of Teddy. Our story begins not with a whitepaper, but with a serendipitous tumble into the world of digital assets.",
+        "Teddy, a curious and adventurous bear, was no ordinary plush companion. One fateful night, while playing around in a pile of discarded gadgets and forgotten tech, he stumbled upon a strange and mysterious hardware wallet, glowing faintly like a treasure in the dark. Mistaking it for a new kind of squeaky toy, Teddy clutched it tightly and, in his usual clumsy fashion, accidentally absorbed it into his fluffy frame. What followed was pure, chaotic brilliance.",
+        "For seven days, Teddy became an accidental catalyst, his every movement sending ripples through the digital landscape. Each mischievous hug or tumble triggered spontaneous transactions, redistributing digital assets in the most unpredictable ways. Coins appeared in wallets that hadn't been touched in years, while random NFTs popped into existence like digital confetti. In one particularly humorous moment, a DAO found itself voting to rename itself \"Teddy's Cuddle Club.\"",
+        "This playful chaos quickly caught the attention of the \"Crypto Spirits,\" the mischievous architects of digital fate. They saw something special in Teddy — a force of joyful disruption, capable of infusing the often rigid and serious world of crypto with warmth and wonder.",
+        "Anointing Teddy as their agent of wholesome rebellion, they gave him a mission both grand and delightfully absurd: to trigger \"The Great Bear Hug,\" a moment when every blockchain would synchronize in a shared embrace of laughter, joy, and unexpected change.",
+        "And so, Teddy set forth, armed with boundless enthusiasm and a hilariously confused understanding of crypto mechanics. His unpredictable tumbles often landed him in the right place at the wrong time, or the wrong place at just the right time — leaving a trail of cheerful disruption and a lot of happy accidents along the way.",
+        "Will Teddy succeed in creating his giant, invisible chain of joy? Can he navigate the complexities of crypto without accidentally flooding the entire system? Join the $TEDDY community and witness the most delightfully happy force in crypto."
+    ];
+
+    const dots = document.querySelectorAll('.dot');
+    let currentIndex = 0;
+
+    function updateSlider(index) {
+        sliderText.innerText = texts[index];
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+    }
+
+    document.querySelector('.arrow_left').addEventListener('click', () => {
+        currentIndex = (currentIndex === 0) ? texts.length - 1 : currentIndex - 1;
+        updateSlider(currentIndex);
+    });
+
+    document.querySelector('.arrow_right').addEventListener('click', () => {
+        currentIndex = (currentIndex === texts.length - 1) ? 0 : currentIndex + 1;
+        updateSlider(currentIndex);
+    });
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            currentIndex = parseInt(dot.getAttribute('data-index'));
+            updateSlider(currentIndex);
+        });
+    });
+</script>
+
+<script>
+    window.addEventListener('scroll', function () {
+        const comixScroll = document.querySelector('.moving_comix_scroll');
+        const comixContent = document.querySelector('.moving_comix_content');
+
+        const scrollTop = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const comixScrollTop = comixScroll.getBoundingClientRect().top + scrollTop;
+        const comixHeight = comixScroll.offsetHeight;
+
+        if (scrollTop + windowHeight > comixScrollTop && scrollTop < comixScrollTop + comixHeight) {
+            const scrollPercentage = (scrollTop + windowHeight - comixScrollTop) / (windowHeight + comixHeight);
+
+            const maxTranslate = comixContent.scrollWidth - comixScroll.offsetWidth;
+            const translateX = Math.min(maxTranslate, maxTranslate * scrollPercentage);
+
+            comixContent.style.transform = `translateX(-${translateX}px)`;
+        }
+    });
+</script>
+
+<script>
+    document.getElementById('CopyButton').addEventListener('click', function () {
+        const copyText = document.getElementById('CopyText').innerText;
+
+        navigator.clipboard.writeText(copyText).then(function () {
+            const copyButton = document.getElementById('CopyButton');
+
+            copyButton.classList.add('active');
+
+            setTimeout(function () {
+                copyButton.classList.remove('active');
+            }, 2000);
+        }).catch(function (error) {
+            console.error('Error when copying text', error);
+        });
+    });
+</script>
+
+<script>
+    let customCurrentIndex = 0;
+    const customSlides = document.querySelectorAll('.custom_slide');
+    const customDots = document.querySelectorAll('.custom_dot');
+
+    function showCustomSlide(index) {
+        customSlides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            if (customDots[i]) {
+                customDots[i].classList.remove('active');
+            }
+        });
+        customSlides[index].classList.add('active');
+        if (customDots[index]) {
+            customDots[index].classList.add('active');
+        }
+    }
+
+    function nextCustomSlide() {
+        customCurrentIndex = (customCurrentIndex + 1) % customSlides.length;
+        showCustomSlide(customCurrentIndex);
+    }
+
+    let customSlideInterval = setInterval(nextCustomSlide, 4000);
+
+    customDots.forEach(dot => {
+        dot.addEventListener('click', function () {
+            clearInterval(customSlideInterval);
+
+            const index = parseInt(this.getAttribute('data-index'));
+            customCurrentIndex = index;
+            showCustomSlide(customCurrentIndex);
+
+            customSlideInterval = setInterval(nextCustomSlide, 5000);
+        });
+    });
+
+    showCustomSlide(customCurrentIndex);
+</script>
+
+<script>
+    document.querySelectorAll('.faq_btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const questionItem = button.closest('.question_item');
+
+            const isActive = questionItem.classList.contains('active');
+
+            document.querySelectorAll('.question_item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            if (!isActive) {
+                questionItem.classList.add('active');
+            }
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observerCallback = (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('effect_active');
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+        const scrollEffectElements = document.querySelectorAll('.scroll_effect');
+        scrollEffectElements.forEach(element => observer.observe(element));
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.querySelector('.menu_mobile_btn');
+        const mobileNav = document.querySelector('.mobile_navigation');
+        const body = document.body;
+
+        function toggleActive() {
+            menuButton.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            body.classList.toggle('lock_scroll');
+        }
+
+        menuButton.addEventListener('click', toggleActive);
+
+        mobileNav.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                menuButton.classList.remove('active');
+                mobileNav.classList.remove('active');
+                body.classList.remove('lock_scroll');
+            });
+        });
+    });
+</script>
+
+<script>
+    window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+
+    if (window.scrollY >= 0) {
+        header.classList.add('active');
+    } else {
+        header.classList.remove('active');
+    }
+});
+
+</script>
+
+
+</body></html>
